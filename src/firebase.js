@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBCLmDl-pDHjpYegQ9c-cxHIVKcMFg4HoE",
-    authDomain: "beu-rank-finder.firebaseapp.com",
-    projectId: "beu-rank-finder",
-    storageBucket: "beu-rank-finder.firebasestorage.app",
-    messagingSenderId: "25827331873",
-    appId: "1:25827331873:web:432cfd0f711d8d8532b860"
-  };
+  apiKey: "AIzaSyAJmXlIdpvYW2QRHagnvoRSc-AJ4lnmcsk",
+  authDomain: "beu-rank.firebaseapp.com",
+  projectId: "beu-rank",
+  storageBucket: "beu-rank.firebasestorage.app",
+  messagingSenderId: "333254655204",
+  appId: "1:333254655204:web:f4993e788a470810bb40f1"
+};
 
 
 
