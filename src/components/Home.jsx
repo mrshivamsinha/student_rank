@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -76,7 +75,7 @@ const Home = () => {
         </button>
         
         <div className={`mt-4 sm:mt-6 text-center ${isMobile ? "text-xs" : "text-sm"} text-gray-500`}>
-          <p>Don't know your registration number? <a href="#" className="text-blue-600 hover:underline">Contact support</a></p>
+          <p>Don't know your registration number? <a href="https://beu.intelliexams.com/beuexams/LoginScreens/frmStudentLoginPage.aspx" className="text-blue-600 hover:underline">Contact support</a></p>
         </div>
       </div>
       
@@ -96,6 +95,11 @@ const Home = () => {
             }}
           />
         ))}
+      </div>
+
+      {/* Copyright footer */}
+      <div className="fixed bottom-0 left-0 w-full py-2 text-center text-xs text-gray-500 bg-white bg-opacity-50">
+        &copy; {new Date().getFullYear()} Shivam Sinha. All rights reserved.
       </div>
     </div>
   );

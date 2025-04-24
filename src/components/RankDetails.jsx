@@ -766,7 +766,7 @@ const RankDetails = () => {
 
       {/* Footer */}
       <div className="mt-12 text-center text-gray-500 text-sm">
-        <p>© {new Date().getFullYear()} University Academic Records System</p>
+        <p>© {new Date().getFullYear()} Shivam Sinha</p>
       </div>
     </div>
   );
